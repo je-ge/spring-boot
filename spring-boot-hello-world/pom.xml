@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jege.spring.boot</groupId>
+	<artifactId>spring-boot-hello-world</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>spring-boot-hello-world</name>
+	<url>http://maven.apache.org</url>
+
+	<!-- 公共spring-boot配置，下面依赖jar文件不用在写版本号 -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<!-- 自动包含以下信息： -->
+		<!-- 1.使用Java6编译级别 -->
+		<!-- 2.使UTF-8编码 -->
+		<!-- 3.实现了通用的测试框架 (JUnit, Hamcrest, Mockito). -->
+		<!-- 4.智能资源过滤 -->
+		<!-- 5.智能的插件配置(exec plugin, surefire, Git commit ID, shade). -->
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<!-- spring boot 1.x最后稳定版本 -->
+		<version>1.4.1.RELEASE</version>
+		<!-- 表示父模块pom的相对路径，这里没有值 -->
+		<relativePath />
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+		<!-- web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- 测试 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<!-- 只在test测试里面运行 -->
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>spring-boot-hello-world</finalName>
+		<plugins>
+			<!-- jdk编译插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
