@@ -1,10 +1,11 @@
 # spring-boot
 [我的博客](http://blog.csdn.net/je_ge "JE-GE的浆糊") 
-##spring-boot-hello-world	入门
-##spring-boot-data-jpa	    集成spring data jpa
-##spring-boot-mybatis	    集成mybatis
-##spring-boot-jdbc	        集成jdbc
-##spring-boot-devtools	    集成热部署-devtools模块
+##spring-boot-hello-world	     	入门
+##spring-boot-data-jpa	    		集成spring data jpa
+##spring-boot-mybatis	    		集成mybatis
+##spring-boot-jdbc	        		集成jdbc
+##spring-boot-devtools	    		集成热部署-devtools模块
+##spring-boot-controller-advice     集成全局异常处理
 
 
 **如果觉得我的代码对您有帮助,请予以打赏。您的支持将鼓励我继续创作!谢谢！**
