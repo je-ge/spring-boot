@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jege.spring.boot</groupId>
+    <artifactId>spring-boot-tutorial</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0.RELEASE</version>
+	
+    <modules>
+        <module>spring-boot-hello-world</module>
+        <module>spring-boot-data-jpa</module>
+        <module>spring-boot-mybatis</module>
+        <module>spring-boot-jdbc</module>
+        <module>spring-boot-devtools</module>
+        <module>spring-boot-controller-advice</module>
+    </modules>
+
+
+</project>
