@@ -6,6 +6,9 @@
 ##spring-boot-jdbc	        		集成jdbc
 ##spring-boot-devtools	    		集成热部署-devtools模块
 ##spring-boot-controller-advice     集成全局异常处理
+##spring-boot-data-jpa-easyui-datagrid  集成easyui-datagrid
+##spring-boot-data-jpa-easyui-edatagrid  集成easyui-edatagrid
+
 
 
 **如果觉得我的代码对您有帮助,请予以打赏。您的支持将鼓励我继续创作!谢谢！**

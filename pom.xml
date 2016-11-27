@@ -16,6 +16,8 @@
         <module>spring-boot-jdbc</module>
         <module>spring-boot-devtools</module>
         <module>spring-boot-controller-advice</module>
+		<module>spring-boot-data-jpa-easyui-datagrid</module>
+		<module>spring-boot-data-jpa-easyui-edatagrid</module>
     </modules>
 
 

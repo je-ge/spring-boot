@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jege.spring.boot</groupId>
-	<artifactId>spring-boot-data-jpa-easyui-user</artifactId>
+	<artifactId>spring-boot-data-jpa-easyui-datagrid</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-data-jpa-easyui-user</name>
+	<name>spring-boot-data-jpa-easyui-datagrid</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- 公共spring-boot配置，下面依赖jar文件不用在写版本号 -->
@@ -85,7 +85,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>spring-boot-data-jpa-easyui-user</finalName>
+		<finalName>spring-boot-data-jpa-easyui-datagrid</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
