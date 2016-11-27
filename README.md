@@ -8,6 +8,7 @@
 ##spring-boot-controller-advice     集成全局异常处理
 ##spring-boot-data-jpa-easyui-datagrid  集成easyui-datagrid
 ##spring-boot-data-jpa-easyui-edatagrid  集成easyui-edatagrid
+##spring-boot-swagger  集成swagger
 
 
 
