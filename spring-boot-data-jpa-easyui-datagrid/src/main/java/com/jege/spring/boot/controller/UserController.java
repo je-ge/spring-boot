@@ -82,6 +82,7 @@ public class UserController extends BaseController {
   @RequestMapping("/delete")
   @ResponseBody
   public AjaxResult delete(Long id) {
+    int a = 1 / 0;
     userRepository.delete(id);
     return new AjaxResult().success();
   }

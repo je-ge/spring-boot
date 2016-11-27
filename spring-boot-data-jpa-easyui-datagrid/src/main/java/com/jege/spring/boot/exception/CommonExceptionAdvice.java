@@ -132,7 +132,7 @@ public class CommonExceptionAdvice {
   /**
    * 500 - Internal Server Error
    */
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+  @ResponseStatus(HttpStatus.OK)
   @ExceptionHandler(ServiceException.class)
   public AjaxResult handleServiceException(ServiceException e) {
     logger.error("业务逻辑异常", e);
@@ -142,7 +142,7 @@ public class CommonExceptionAdvice {
   /**
    * 500 - Internal Server Error
    */
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+  @ResponseStatus(HttpStatus.OK)
   @ExceptionHandler(Exception.class)
   public AjaxResult handleException(Exception e) {
     logger.error("通用异常", e);
@@ -152,7 +152,7 @@ public class CommonExceptionAdvice {
   /**
    * 操作数据库出现异常:名称重复，外键关联
    */
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+  @ResponseStatus(HttpStatus.OK)
   @ExceptionHandler(DataIntegrityViolationException.class)
   public AjaxResult handleException(DataIntegrityViolationException e) {
     logger.error("操作数据库出现异常:", e);
