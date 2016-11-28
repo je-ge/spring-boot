@@ -9,6 +9,7 @@
 ##spring-boot-data-jpa-easyui-datagrid  集成easyui-datagrid
 ##spring-boot-data-jpa-easyui-edatagrid  集成easyui-edatagrid
 ##spring-boot-swagger  集成swagger
+##spring-boot-freemarker-word-download 集成freemarker,用户列表的数据变成doc文档下载
 
 
 

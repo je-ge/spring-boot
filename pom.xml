@@ -18,6 +18,7 @@
 		<module>spring-boot-data-jpa-easyui-datagrid</module>
 		<module>spring-boot-data-jpa-easyui-edatagrid</module>
 		<module>spring-boot-swagger</module>
+		<module>spring-boot-freemarker-word-download</module>
 	</modules>
 
 
