@@ -24,7 +24,7 @@ import freemarker.template.Template;
 /**
  * @author JE哥
  * @email 1272434821@qq.com
- * @description:获取连接，写出hibernate文件
+ * @description:获取连接，写出doc文件
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest()
@@ -39,6 +39,7 @@ public class JsoupTest {
   // </h1>
 
   private Elements getLinks() throws Exception {
+    // 新版本需要设置浏览器头信息
     Document document = Jsoup.connect(URL_ADDRESS)
 	.userAgent("Mozilla/5.0 (Windows NT 7.0; Win64; x64; rv:49.0) Gecko/20100101 Firefox/49.0").get();
     return document.select("h1 a");
@@ -71,7 +72,34 @@ public class JsoupTest {
       if (linkText.contains(title)) {
 	Map<String, Object> map = new HashMap<String, Object>();
 	map.put("href", "http://blog.csdn.net/" + link.attr("href"));
-	map.put("title", linkText.replaceAll("Hibernate 系列教程", ""));
+	map.put("title", linkText.replaceAll(title, ""));
+	list.add(map);
+      }
+    }
+    Collections.reverse(list);
+    System.out.println("size:" + links.size());
+
+    freeMarkerConfigurer.getConfiguration().setClassForTemplateLoading(getClass(), "/");
+    Template template = freeMarkerConfigurer.getConfiguration().getTemplate("Hibernate.ftl");
+    Map<String, Object> root = new HashMap<String, Object>();
+    root.put("title", title);
+    root.put("content", content);
+    root.put("list", list);
+    template.process(root, new FileWriter(new File(title + ".doc")));
+  }
+
+  @Test
+  public void writeSpringBoot() throws Exception {
+    String title = "Spring Boot 系列教程";
+    String content = "Spring Boot是Spring社区发布的一个开源项目，旨在帮助开发者快速并且更简单的构建项目。大多数SpringBoot项目只需要很少的配置文件。";
+    Elements links = getLinks();
+    List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
+    for (Element link : links) {
+      String linkText = link.text();
+      if (linkText.contains(title)) {
+	Map<String, Object> map = new HashMap<String, Object>();
+	map.put("href", "http://blog.csdn.net/" + link.attr("href"));
+	map.put("title", linkText.replaceAll(title, ""));
 	list.add(map);
       }
     }
