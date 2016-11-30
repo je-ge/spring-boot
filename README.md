@@ -11,7 +11,7 @@
 ##spring-boot-swagger  集成swagger
 ##spring-boot-freemarker-word-download 集成freemarker,用户列表的数据变成doc文档下载
 ##spring-boot-jsoup 集成jsoup，解析html并按照需求生成doc文档
-
+##spring-boot-easypoi-execl-download 集成easypoi，导出xls文档
 
 
 **如果觉得我的代码对您有帮助,请予以打赏。您的支持将鼓励我继续创作!谢谢！**

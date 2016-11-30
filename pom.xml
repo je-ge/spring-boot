@@ -20,6 +20,7 @@
 		<module>spring-boot-swagger</module>
 		<module>spring-boot-freemarker-word-download</module>
 		<module>spring-boot-jsoup</module>
+		<module>spring-boot-easypoi-execl-download</module>
 	</modules>
 
 
