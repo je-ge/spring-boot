@@ -14,6 +14,8 @@
 ##spring-boot-easypoi-execl-download 集成easypoi，导出xls文档
 ##spring-boot-scheduled-task 集成定时任务
 ##spring-boot-dynamic-scheduled-task 集成定时任务，动态修改定时任务cron参数
+##spring-boot-data-jpa-easyui-datagrid-i8n  集成easyui-datagrid 页面国际化
+##spring-boot-data-jpa-easyui-datagrid-i8n-data  集成easyui-datagrid 数据国际化
 
 
 **如果觉得我的代码对您有帮助,请予以打赏。您的支持将鼓励我继续创作!谢谢！**
