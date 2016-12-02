@@ -22,6 +22,7 @@
 		<module>spring-boot-jsoup</module>
 		<module>spring-boot-easypoi-execl-download</module>
 		<module>spring-boot-scheduled-task</module>
+		<module>spring-boot-dynamic-scheduled-task</module>
 	</modules>
 
 
