@@ -21,6 +21,7 @@
 		<module>spring-boot-freemarker-word-download</module>
 		<module>spring-boot-jsoup</module>
 		<module>spring-boot-easypoi-execl-download</module>
+		<module>spring-boot-scheduled-task</module>
 	</modules>
 
 
