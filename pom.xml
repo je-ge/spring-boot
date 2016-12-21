@@ -8,6 +8,19 @@
 	<packaging>pom</packaging>
 	<version>1.0.0.RELEASE</version>
 
+	<name>spring-boot-tutorial</name>
+	<url>http://blog.csdn.net/je_ge</url>
+
+	<developers>
+		<developer>
+			<id>je_ge</id>
+			<name>je_ge</name>
+			<email>1272434821@qq.com</email>
+			<url>http://blog.csdn.net/je_ge</url>
+			<timezone>8</timezone>
+		</developer>
+	</developers>
+
 	<modules>
 		<module>spring-boot-hello-world</module>
 		<module>spring-boot-data-jpa</module>
@@ -25,6 +38,7 @@
 		<module>spring-boot-dynamic-scheduled-task</module>
 		<module>spring-boot-data-jpa-easyui-datagrid-i18n</module>
 		<module>spring-boot-data-jpa-easyui-datagrid-i18n-data</module>
+		<module>spring-boot-data-jpa-easyui-datagrid-cache</module>
 	</modules>
 
 

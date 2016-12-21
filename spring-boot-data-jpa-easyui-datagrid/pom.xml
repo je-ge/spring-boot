@@ -4,12 +4,22 @@
 
 	<groupId>com.jege.spring.boot</groupId>
 	<artifactId>spring-boot-data-jpa-easyui-datagrid</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>spring-boot-data-jpa-easyui-datagrid</name>
-	<url>http://maven.apache.org</url>
+	<url>http://blog.csdn.net/je_ge</url>
 
+	<developers>
+		<developer>
+			<id>je_ge</id>
+			<name>je_ge</name>
+			<email>1272434821@qq.com</email>
+			<url>http://blog.csdn.net/je_ge</url>
+			<timezone>8</timezone>
+		</developer>
+	</developers>
+	
 	<!-- 公共spring-boot配置，下面依赖jar文件不用在写版本号 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
