@@ -39,6 +39,7 @@
 		<module>spring-boot-data-jpa-easyui-datagrid-i18n</module>
 		<module>spring-boot-data-jpa-easyui-datagrid-i18n-data</module>
 		<module>spring-boot-data-jpa-easyui-datagrid-cache</module>
+		<module>spring-boot-itext-pdf-download</module>		
 	</modules>
 
 
