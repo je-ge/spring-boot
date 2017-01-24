@@ -19,6 +19,7 @@
 ###spring-boot-data-jpa-easyui-datagrid-cache  集成Cache-缓存
 ###spring-boot-itext-pdf-download 集成itext导出pdf下载
 ###spring-boot-data-jpa-easyui-validate 集成后台验证-Hibernate Validation
+###spring-boot-elasticsearch 集成elasticsearch
 
 **如果觉得我的文章或者代码对您有帮助,可以请我喝杯咖啡。您的支持将鼓励我继续创作!谢谢！ **
 
