@@ -42,6 +42,8 @@
 		<module>spring-boot-itext-pdf-download</module>		
 		<module>spring-boot-data-jpa-easyui-validate</module>	
 		<module>spring-boot-elasticsearch</module>	
+		<module>spring-boot-distributed-session</module>	
+		<module>spring-boot-redis</module>	
 	</modules>
 
 
