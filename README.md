@@ -22,7 +22,7 @@
 ###spring-boot-elasticsearch 集成elasticsearch
 ###spring-boot-distributed-session 集成spring session
 ###spring-boot-redis 集成redis
-
+###spring-boot-xml 集成xml
 
 **如果觉得我的文章或者代码对您有帮助,可以请我喝杯咖啡。**
 **您的支持将鼓励我继续创作!谢谢！ **

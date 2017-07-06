@@ -1,3 +1,4 @@
+package com.jege.spring.boot.config;
 //package com.jege.spring.boot.Config;
 //
 //import org.springframework.context.annotation.Bean;
