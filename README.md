@@ -24,6 +24,7 @@
 ###spring-boot-redis 集成redis
 ###spring-boot-xml 集成xml
 ###spring-boot-email 集成邮件发送
+###spring-boot-https 内置tomcat访问https
 
 
 

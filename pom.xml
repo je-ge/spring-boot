@@ -46,6 +46,7 @@
 		<module>spring-boot-redis</module>
 		<module>spring-boot-xml</module>
 		<module>spring-boot-email</module>
+		<module>spring-boot-https</module>
 	</modules>
 
 
