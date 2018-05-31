@@ -27,6 +27,7 @@ public class UserController {
       "application/xml" })
   @ResponseBody
   public User post(@RequestBody User user) {
+    Integer a = 1;
     return user;
   }
 }
