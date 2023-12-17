@@ -38,7 +38,7 @@
 		<repository>
 			<id>repo-oschina</id>
 			<name>Maven oschina</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<url>https://maven.oschina.net/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -52,7 +52,7 @@
 		<pluginRepository>
 			<id>plugin-repo-oschina</id>
 			<name> Maven oschina</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<url>https://maven.oschina.net/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
